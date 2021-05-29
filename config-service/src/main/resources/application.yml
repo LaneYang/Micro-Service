@@ -7,11 +7,11 @@ spring:
 
   cloud:
     config:
-      label: docker
       server:
         git:
-          uri: https://github.com/YuboC/Micro-Service.git
+          uri: https://github.com/laneyang/Micro-Service.git
           search-paths: service-configs
+          default-label: docker
           # uri: ${HOME}/Developer/SpringCloud/user-start/service-configs
 
 eureka:
