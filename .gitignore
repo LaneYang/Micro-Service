@@ -37,3 +37,6 @@ out/
 .vscode/
 
 mapped-volumes/
+.DS_STORE
+.DS_Store
+*/.DS_Store
